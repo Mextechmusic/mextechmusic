@@ -130,7 +130,7 @@ const { JSDOM } = require("jsdom");
                   margin: var(--space--4);
                 `}"
               >
-                Hi! This website has been coded by <a href="www.leafac.com">leafac</a>.
+                Hi! This website has been coded by <a href="https://leafac.com/">leafac</a>.
                 You can find the source code on my Github! Some parts may be under construction!
               </div>
             </div>
@@ -180,7 +180,7 @@ const { JSDOM } = require("jsdom");
                         margin-left: var(--space--2);
                       `}"
                     >
-                      IDDQD Sound
+                      Mextech Music
                     </div>
                   </a>
                 </h1>
@@ -229,11 +229,13 @@ const { JSDOM } = require("jsdom");
                     >Music</a
                   >
                   <a
+                    hidden
                     href="/blog"
                     class="link ${file.startsWith("blog/") ? "active" : ""}"
                     >Blog</a
                   >
                   <a
+                  
                     href="/bio"
                     class="link ${file.startsWith("bio/") ? "active" : ""}"
                     >Bio</a
