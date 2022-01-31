@@ -1,0 +1,1233 @@
+<!DOCTYPE html><html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>IDDQD Sound</title>
+            <link rel="stylesheet" href="/Media/node_modules/@fontsource/roboto/latin.css">
+            <link rel="stylesheet" href="/Media/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+            <script src="/Media/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+            <script src="/Media/node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+            <link rel="stylesheet" href="/Media/node_modules/tippy.js/dist/svg-arrow.css">
+            <link rel="stylesheet" href="/Media/node_modules/tippy.js/dist/border.css">
+            <script src="/Media/node_modules/@leafac/javascript/browser.js"></script>
+            <script>
+              leafac.evaluateOnInteractive();
+              leafac.tippySetDefaultProps();
+            </script>
+          
+      <style>
+        
+          /* RESET */
+
+          /*
+            https://necolas.github.io/normalize.css/8.0.1/normalize.css
+            https://meyerweb.com/eric/tools/css/reset/
+            https://github.com/twbs/bootstrap/blob/649c2bb0bf326db36cbbf7e72c0541b19749a70e/dist/css/bootstrap-reboot.css
+            https://github.com/sindresorhus/modern-normalize/blob/1fc6b5a86676b7ac8abc62d04d6080f92debc70f/modern-normalize.css
+            https://github.com/suitcss/base/blob/50d5ad1e0d6790eb3df29b705db3684a9909894f/lib/base.css
+            https://github.com/tailwindlabs/tailwindcss/blob/b442c912e2d052ad026fd2e3d31bc450f620a784/src/plugins/css/preflight.css
+            https://github.com/jensimmons/cssremedy/blob/468e31a7eda599eea2003ed7983c190828ffb5fd/css/remedy.css
+            https://github.com/csstools/sanitize.css/tree/776bd4d72654ddb54aa5071b2cd10bb1957f7f97
+            https://unpkg.com/browse/@tailwindcss/forms@0.3.2/dist/forms.css
+          */
+
+          *,
+          ::before,
+          ::after {
+            font: inherit;
+            text-decoration: inherit;
+            -webkit-text-size-adjust: 100%;
+               -moz-text-size-adjust: 100%;
+                    text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: inherit;
+            background-color: transparent;
+            opacity: 1;
+            box-sizing: border-box;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            outline: 0;
+            overflow-wrap: break-word;
+            -webkit-appearance: none;
+               -moz-appearance: none;
+                    appearance: none;
+            list-style: none;
+            resize: none;
+            cursor: inherit;
+          }
+
+          ::-webkit-details-marker {
+            display: none;
+          }
+
+          [hidden] {
+            display: none !important;
+          }
+
+          /* DESIGN SYSTEM */
+
+          /*
+            https://github.com/tailwindlabs/tailwindcss/blob/1d72dc269956bbdac96c33172bddf831b4f682ec/stubs/defaultConfig.stub.js
+            https://github.com/tailwindlabs/tailwindcss/blob/1d72dc269956bbdac96c33172bddf831b4f682ec/colors.js
+          */
+          :root {
+            --font-family--sans-serif: ui-sans-serif, system-ui, -apple-system,
+              BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+              "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+              "Segoe UI Symbol", "Noto Color Emoji";
+            --font-family--serif: ui-serif, Georgia, Cambria, "Times New Roman",
+              Times, serif;
+            --font-family--monospace: ui-monospace, SFMono-Regular, Menlo,
+              Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+            --font-size--2xs: 0.625rem;
+            --line-height--2xs: 0.875rem;
+            --font-size--xs: 0.75rem;
+            --line-height--xs: 1rem;
+            --font-size--sm: 0.875rem;
+            --line-height--sm: 1.25rem;
+            --font-size--base: 1rem;
+            --line-height--base: 1.5rem;
+            --font-size--lg: 1.125rem;
+            --line-height--lg: 1.75rem;
+            --font-size--xl: 1.25rem;
+            --line-height--xl: 1.75rem;
+            --font-size--2xl: 1.5rem;
+            --line-height--2xl: 2rem;
+            --font-size--3xl: 1.875rem;
+            --line-height--3xl: 2.25rem;
+            --font-size--4xl: 2.25rem;
+            --line-height--4xl: 2.5rem;
+            --font-size--5xl: 3rem;
+            --line-height--5xl: 1;
+            --font-size--6xl: 3.75rem;
+            --line-height--6xl: 1;
+            --font-size--7xl: 4.5rem;
+            --line-height--7xl: 1;
+            --font-size--8xl: 6rem;
+            --line-height--8xl: 1;
+            --font-size--9xl: 8rem;
+            --line-height--9xl: 1;
+
+            --font-weight--thin: 100;
+            --font-weight--extralight: 200;
+            --font-weight--light: 300;
+            --font-weight--normal: 400;
+            --font-weight--medium: 500;
+            --font-weight--semibold: 600;
+            --font-weight--bold: 700;
+            --font-weight--extrabold: 800;
+            --font-weight--black: 900;
+
+            --letter-spacing--tighter: -0.05em;
+            --letter-spacing--tight: -0.025em;
+            --letter-spacing--normal: 0em;
+            --letter-spacing--wide: 0.025em;
+            --letter-spacing--wider: 0.05em;
+            --letter-spacing--widest: 0.1em;
+
+            --width--0: 0rem;
+            --width--xs: 20rem;
+            --width--sm: 24rem;
+            --width--md: 28rem;
+            --width--lg: 32rem;
+            --width--xl: 36rem;
+            --width--2xl: 42rem;
+            --width--3xl: 48rem;
+            --width--4xl: 56rem;
+            --width--5xl: 64rem;
+            --width--6xl: 72rem;
+            --width--7xl: 80rem;
+            --width--prose: 65ch;
+
+            --space---96: -24rem;
+            --space---80: -20rem;
+            --space---72: -18rem;
+            --space---64: -16rem;
+            --space---60: -15rem;
+            --space---56: -14rem;
+            --space---52: -13rem;
+            --space---48: -12rem;
+            --space---44: -11rem;
+            --space---40: -10rem;
+            --space---36: -9rem;
+            --space---32: -8rem;
+            --space---28: -7rem;
+            --space---24: -6rem;
+            --space---20: -5rem;
+            --space---16: -4rem;
+            --space---14: -3.5rem;
+            --space---12: -3rem;
+            --space---11: -2.75rem;
+            --space---10: -2.5rem;
+            --space---9: -2.25rem;
+            --space---8: -2rem;
+            --space---7: -1.75rem;
+            --space---6: -1.5rem;
+            --space---5: -1.25rem;
+            --space---4: -1rem;
+            --space---3-5: -0.875rem;
+            --space---3: -0.75rem;
+            --space---2-5: -0.625rem;
+            --space---2: -0.5rem;
+            --space---1-5: -0.375rem;
+            --space---1: -0.25rem;
+            --space---0-5: -0.125rem;
+            --space---px: -1px;
+            --space--0: 0px;
+            --space--px: 1px;
+            --space--0-5: 0.125rem;
+            --space--1: 0.25rem;
+            --space--1-5: 0.375rem;
+            --space--2: 0.5rem;
+            --space--2-5: 0.625rem;
+            --space--3: 0.75rem;
+            --space--3-5: 0.875rem;
+            --space--4: 1rem;
+            --space--5: 1.25rem;
+            --space--6: 1.5rem;
+            --space--7: 1.75rem;
+            --space--8: 2rem;
+            --space--9: 2.25rem;
+            --space--10: 2.5rem;
+            --space--11: 2.75rem;
+            --space--12: 3rem;
+            --space--14: 3.5rem;
+            --space--16: 4rem;
+            --space--20: 5rem;
+            --space--24: 6rem;
+            --space--28: 7rem;
+            --space--32: 8rem;
+            --space--36: 9rem;
+            --space--40: 10rem;
+            --space--44: 11rem;
+            --space--48: 12rem;
+            --space--52: 13rem;
+            --space--56: 14rem;
+            --space--60: 15rem;
+            --space--64: 16rem;
+            --space--72: 18rem;
+            --space--80: 20rem;
+            --space--96: 24rem;
+
+            --border-width--0: 0px;
+            --border-width--1: 1px;
+            --border-width--2: 2px;
+            --border-width--4: 4px;
+            --border-width--8: 8px;
+
+            --border-radius--none: 0px;
+            --border-radius--sm: 0.125rem;
+            --border-radius--base: 0.25rem;
+            --border-radius--md: 0.375rem;
+            --border-radius--lg: 0.5rem;
+            --border-radius--xl: 0.75rem;
+            --border-radius--2xl: 1rem;
+            --border-radius--3xl: 1.5rem;
+            --border-radius--full: 9999px;
+            --border-radius--circle: 50%;
+
+            --outline--none: 2px solid transparent;
+            --outline--white: 2px dotted white;
+            --outline--black: 2px dotted black;
+
+            --box-shadow--none: none;
+            --box-shadow--sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --box-shadow--base: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+              0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            --box-shadow--md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --box-shadow--lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --box-shadow--xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --box-shadow--2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            --box-shadow--inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+            --stroke-width--0: 0;
+            --stroke-width--1: 1;
+            --stroke-width--2: 2;
+
+            --opacity--0: 0;
+            --opacity--5: 0.05;
+            --opacity--10: 0.1;
+            --opacity--20: 0.2;
+            --opacity--25: 0.25;
+            --opacity--30: 0.3;
+            --opacity--40: 0.4;
+            --opacity--50: 0.5;
+            --opacity--60: 0.6;
+            --opacity--70: 0.7;
+            --opacity--75: 0.75;
+            --opacity--80: 0.8;
+            --opacity--90: 0.9;
+            --opacity--95: 0.95;
+            --opacity--100: 1;
+
+            --order--none: 0;
+            --order--first: -9999;
+            --order--last: 9999;
+
+            --z-index--auto: auto;
+            --z-index---1: -1;
+            --z-index--0: 0;
+            --z-index--10: 10;
+            --z-index--20: 20;
+            --z-index--30: 30;
+            --z-index--40: 40;
+            --z-index--50: 50;
+
+            --rotate---180: -180deg;
+            --rotate---90: -90deg;
+            --rotate---45: -45deg;
+            --rotate---12: -12deg;
+            --rotate---6: -6deg;
+            --rotate---3: -3deg;
+            --rotate---2: -2deg;
+            --rotate---1: -1deg;
+            --rotate--0: 0deg;
+            --rotate--1: 1deg;
+            --rotate--2: 2deg;
+            --rotate--3: 3deg;
+            --rotate--6: 6deg;
+            --rotate--12: 12deg;
+            --rotate--45: 45deg;
+            --rotate--90: 90deg;
+            --rotate--180: 180deg;
+
+            --scale--0: 0;
+            --scale--50: 0.5;
+            --scale--75: 0.75;
+            --scale--90: 0.9;
+            --scale--95: 0.95;
+            --scale--100: 1;
+            --scale--105: 1.05;
+            --scale--110: 1.1;
+            --scale--125: 1.25;
+            --scale--150: 1.5;
+
+            --skew---12: -12deg;
+            --skew---6: -6deg;
+            --skew---3: -3deg;
+            --skew---2: -2deg;
+            --skew---1: -1deg;
+            --skew--0: 0deg;
+            --skew--1: 1deg;
+            --skew--2: 2deg;
+            --skew--3: 3deg;
+            --skew--6: 6deg;
+            --skew--12: 12deg;
+
+            --brightness--0: 0;
+            --brightness--50: 0.5;
+            --brightness--75: 0.75;
+            --brightness--90: 0.9;
+            --brightness--95: 0.95;
+            --brightness--100: 1;
+            --brightness--105: 1.05;
+            --brightness--110: 1.1;
+            --brightness--125: 1.25;
+            --brightness--150: 1.5;
+            --brightness--200: 2;
+
+            --contrast--0: 0;
+            --contrast--50: 0.5;
+            --contrast--75: 0.75;
+            --contrast--100: 1;
+            --contrast--125: 1.25;
+            --contrast--150: 1.5;
+            --contrast--200: 2;
+
+            --saturate--0: 0;
+            --saturate--50: 0.5;
+            --saturate--100: 1;
+            --saturate--150: 1.5;
+            --saturate--200: 2;
+
+            --blur--none: 0px;
+            --blur--sm: 4px;
+            --blur--base: 8px;
+            --blur--md: 12px;
+            --blur--lg: 16px;
+            --blur--xl: 24px;
+            --blur--2xl: 40px;
+            --blur--3xl: 64px;
+
+            --sepia--0: 0;
+            --sepia--base: 100%;
+
+            --drop-shadow--none: 0 0 #0000;
+            --drop-shadow--sm: 0 1px 1px rgba(0, 0, 0, 0.05);
+            --drop-shadow--base: 0 1px 2px rgba(0, 0, 0, 0.1),
+              0 1px 1px rgba(0, 0, 0, 0.06);
+            --drop-shadow--md: 0 4px 3px rgba(0, 0, 0, 0.07),
+              0 2px 2px rgba(0, 0, 0, 0.06);
+            --drop-shadow--lg: 0 10px 8px rgba(0, 0, 0, 0.04),
+              0 4px 3px rgba(0, 0, 0, 0.1);
+            --drop-shadow--xl: 0 20px 13px rgba(0, 0, 0, 0.03),
+              0 8px 5px rgba(0, 0, 0, 0.08);
+            --drop-shadow--2xl: 0 25px 25px rgba(0, 0, 0, 0.15);
+
+            --transition-property--none: none;
+            --transition-property--all: all;
+            --transition-property--base: background-color, border-color, color,
+              fill, stroke, opacity, box-shadow, transform, filter,
+              backdrop-filter;
+            --transition-property--colors: background-color, border-color, color,
+              fill, stroke;
+            --transition-property--opacity: opacity;
+            --transition-property--box-shadow: box-shadow;
+            --transition-property--transform: transform;
+
+            --transition-duration--75: 75ms;
+            --transition-duration--100: 100ms;
+            --transition-duration--150: 150ms;
+            --transition-duration--200: 200ms;
+            --transition-duration--300: 300ms;
+            --transition-duration--500: 500ms;
+            --transition-duration--700: 700ms;
+            --transition-duration--1000: 1000ms;
+          }
+          @media (prefers-reduced-motion: reduce) {
+          :root {
+              --transition-duration--75: 1ms;
+              --transition-duration--100: 1ms;
+              --transition-duration--150: 1ms;
+              --transition-duration--200: 1ms;
+              --transition-duration--300: 1ms;
+              --transition-duration--500: 1ms;
+              --transition-duration--700: 1ms;
+              --transition-duration--1000: 1ms;
+          }
+            }
+          :root {
+
+            --transition-timing-function--base: cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-timing-function--linear: linear;
+            --transition-timing-function--in: cubic-bezier(0.4, 0, 1, 1);
+            --transition-timing-function--out: cubic-bezier(0, 0, 0.2, 1);
+            --transition-timing-function--in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+            --animation--none: none;
+            --animation--spin: spin 1s linear infinite;
+}
+          @-webkit-keyframes spin {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          @keyframes spin {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          :root {
+            --animation--ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+          @-webkit-keyframes ping {
+              75%,
+              100% {
+                transform: scale(2);
+                opacity: 0;
+              }
+            }
+          @keyframes ping {
+              75%,
+              100% {
+                transform: scale(2);
+                opacity: 0;
+              }
+            }
+          :root {
+            --animation--pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+          @-webkit-keyframes pulse {
+              0%,
+              100% {
+                opacity: 1;
+              }
+              50% {
+                opacity: 0.5;
+              }
+            }
+          @keyframes pulse {
+              0%,
+              100% {
+                opacity: 1;
+              }
+              50% {
+                opacity: 0.5;
+              }
+            }
+          :root {
+            --animation--bounce: bounce 1s infinite;
+}
+          @-webkit-keyframes bounce {
+              0%,
+              100% {
+                transform: translateY(-25%);
+                animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
+              }
+              50% {
+                transform: translateY(0);
+                animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
+              }
+            }
+          @keyframes bounce {
+              0%,
+              100% {
+                transform: translateY(-25%);
+                animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
+              }
+              50% {
+                transform: translateY(0);
+                animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
+              }
+            }
+          :root {
+
+            --color--transparent: transparent;
+            --color--current: currentColor;
+
+            --color--black: #000000;
+            --color--white: #ffffff;
+
+            --color--gray--blue--50: #f8fafc;
+            --color--gray--blue--100: #f1f5f9;
+            --color--gray--blue--200: #e2e8f0;
+            --color--gray--blue--300: #cbd5e1;
+            --color--gray--blue--400: #94a3b8;
+            --color--gray--blue--500: #64748b;
+            --color--gray--blue--600: #475569;
+            --color--gray--blue--700: #334155;
+            --color--gray--blue--800: #1e293b;
+            --color--gray--blue--900: #0f172a;
+
+            --color--gray--cool--50: #f9fafb;
+            --color--gray--cool--100: #f3f4f6;
+            --color--gray--cool--200: #e5e7eb;
+            --color--gray--cool--300: #d1d5db;
+            --color--gray--cool--400: #9ca3af;
+            --color--gray--cool--500: #6b7280;
+            --color--gray--cool--600: #4b5563;
+            --color--gray--cool--700: #374151;
+            --color--gray--cool--800: #1f2937;
+            --color--gray--cool--900: #111827;
+
+            --color--gray--medium--50: #fafafa;
+            --color--gray--medium--100: #f4f4f5;
+            --color--gray--medium--200: #e4e4e7;
+            --color--gray--medium--300: #d4d4d8;
+            --color--gray--medium--400: #a1a1aa;
+            --color--gray--medium--500: #71717a;
+            --color--gray--medium--600: #52525b;
+            --color--gray--medium--700: #3f3f46;
+            --color--gray--medium--800: #27272a;
+            --color--gray--medium--900: #18181b;
+
+            --color--gray--true--50: #fafafa;
+            --color--gray--true--100: #f5f5f5;
+            --color--gray--true--200: #e5e5e5;
+            --color--gray--true--300: #d4d4d4;
+            --color--gray--true--400: #a3a3a3;
+            --color--gray--true--500: #737373;
+            --color--gray--true--600: #525252;
+            --color--gray--true--700: #404040;
+            --color--gray--true--800: #262626;
+            --color--gray--true--900: #171717;
+
+            --color--gray--warm--50: #fafaf9;
+            --color--gray--warm--100: #f5f5f4;
+            --color--gray--warm--200: #e7e5e4;
+            --color--gray--warm--300: #d6d3d1;
+            --color--gray--warm--400: #a8a29e;
+            --color--gray--warm--500: #78716c;
+            --color--gray--warm--600: #57534e;
+            --color--gray--warm--700: #44403c;
+            --color--gray--warm--800: #292524;
+            --color--gray--warm--900: #1c1917;
+
+            --color--red--50: #fef2f2;
+            --color--red--100: #fee2e2;
+            --color--red--200: #fecaca;
+            --color--red--300: #fca5a5;
+            --color--red--400: #f87171;
+            --color--red--500: #ef4444;
+            --color--red--600: #dc2626;
+            --color--red--700: #b91c1c;
+            --color--red--800: #991b1b;
+            --color--red--900: #7f1d1d;
+
+            --color--orange--50: #fff7ed;
+            --color--orange--100: #ffedd5;
+            --color--orange--200: #fed7aa;
+            --color--orange--300: #fdba74;
+            --color--orange--400: #fb923c;
+            --color--orange--500: #f97316;
+            --color--orange--600: #ea580c;
+            --color--orange--700: #c2410c;
+            --color--orange--800: #9a3412;
+            --color--orange--900: #7c2d12;
+
+            --color--amber--50: #fffbeb;
+            --color--amber--100: #fef3c7;
+            --color--amber--200: #fde68a;
+            --color--amber--300: #fcd34d;
+            --color--amber--400: #fbbf24;
+            --color--amber--500: #f59e0b;
+            --color--amber--600: #d97706;
+            --color--amber--700: #b45309;
+            --color--amber--800: #92400e;
+            --color--amber--900: #78350f;
+
+            --color--yellow--50: #fefce8;
+            --color--yellow--100: #fef9c3;
+            --color--yellow--200: #fef08a;
+            --color--yellow--300: #fde047;
+            --color--yellow--400: #facc15;
+            --color--yellow--500: #eab308;
+            --color--yellow--600: #ca8a04;
+            --color--yellow--700: #a16207;
+            --color--yellow--800: #854d0e;
+            --color--yellow--900: #713f12;
+
+            --color--lime--50: #f7fee7;
+            --color--lime--100: #ecfccb;
+            --color--lime--200: #d9f99d;
+            --color--lime--300: #bef264;
+            --color--lime--400: #a3e635;
+            --color--lime--500: #84cc16;
+            --color--lime--600: #65a30d;
+            --color--lime--700: #4d7c0f;
+            --color--lime--800: #3f6212;
+            --color--lime--900: #365314;
+
+            --color--green--50: #f0fdf4;
+            --color--green--100: #dcfce7;
+            --color--green--200: #bbf7d0;
+            --color--green--300: #86efac;
+            --color--green--400: #4ade80;
+            --color--green--500: #22c55e;
+            --color--green--600: #16a34a;
+            --color--green--700: #15803d;
+            --color--green--800: #166534;
+            --color--green--900: #14532d;
+
+            --color--emerald--50: #ecfdf5;
+            --color--emerald--100: #d1fae5;
+            --color--emerald--200: #a7f3d0;
+            --color--emerald--300: #6ee7b7;
+            --color--emerald--400: #34d399;
+            --color--emerald--500: #10b981;
+            --color--emerald--600: #059669;
+            --color--emerald--700: #047857;
+            --color--emerald--800: #065f46;
+            --color--emerald--900: #064e3b;
+
+            --color--teal--50: #f0fdfa;
+            --color--teal--100: #ccfbf1;
+            --color--teal--200: #99f6e4;
+            --color--teal--300: #5eead4;
+            --color--teal--400: #2dd4bf;
+            --color--teal--500: #14b8a6;
+            --color--teal--600: #0d9488;
+            --color--teal--700: #0f766e;
+            --color--teal--800: #115e59;
+            --color--teal--900: #134e4a;
+
+            --color--cyan--50: #ecfeff;
+            --color--cyan--100: #cffafe;
+            --color--cyan--200: #a5f3fc;
+            --color--cyan--300: #67e8f9;
+            --color--cyan--400: #22d3ee;
+            --color--cyan--500: #06b6d4;
+            --color--cyan--600: #0891b2;
+            --color--cyan--700: #0e7490;
+            --color--cyan--800: #155e75;
+            --color--cyan--900: #164e63;
+
+            --color--sky--50: #f0f9ff;
+            --color--sky--100: #e0f2fe;
+            --color--sky--200: #bae6fd;
+            --color--sky--300: #7dd3fc;
+            --color--sky--400: #38bdf8;
+            --color--sky--500: #0ea5e9;
+            --color--sky--600: #0284c7;
+            --color--sky--700: #0369a1;
+            --color--sky--800: #075985;
+            --color--sky--900: #0c4a6e;
+
+            --color--blue--50: #eff6ff;
+            --color--blue--100: #dbeafe;
+            --color--blue--200: #bfdbfe;
+            --color--blue--300: #93c5fd;
+            --color--blue--400: #60a5fa;
+            --color--blue--500: #3b82f6;
+            --color--blue--600: #2563eb;
+            --color--blue--700: #1d4ed8;
+            --color--blue--800: #1e40af;
+            --color--blue--900: #1e3a8a;
+
+            --color--indigo--50: #eef2ff;
+            --color--indigo--100: #e0e7ff;
+            --color--indigo--200: #c7d2fe;
+            --color--indigo--300: #a5b4fc;
+            --color--indigo--400: #818cf8;
+            --color--indigo--500: #6366f1;
+            --color--indigo--600: #4f46e5;
+            --color--indigo--700: #4338ca;
+            --color--indigo--800: #3730a3;
+            --color--indigo--900: #312e81;
+
+            --color--violet--50: #f5f3ff;
+            --color--violet--100: #ede9fe;
+            --color--violet--200: #ddd6fe;
+            --color--violet--300: #c4b5fd;
+            --color--violet--400: #a78bfa;
+            --color--violet--500: #8b5cf6;
+            --color--violet--600: #7c3aed;
+            --color--violet--700: #6d28d9;
+            --color--violet--800: #5b21b6;
+            --color--violet--900: #4c1d95;
+
+            --color--purple--50: #faf5ff;
+            --color--purple--100: #f3e8ff;
+            --color--purple--200: #e9d5ff;
+            --color--purple--300: #d8b4fe;
+            --color--purple--400: #c084fc;
+            --color--purple--500: #a855f7;
+            --color--purple--600: #9333ea;
+            --color--purple--700: #7e22ce;
+            --color--purple--800: #6b21a8;
+            --color--purple--900: #581c87;
+
+            --color--fuchsia--50: #fdf4ff;
+            --color--fuchsia--100: #fae8ff;
+            --color--fuchsia--200: #f5d0fe;
+            --color--fuchsia--300: #f0abfc;
+            --color--fuchsia--400: #e879f9;
+            --color--fuchsia--500: #d946ef;
+            --color--fuchsia--600: #c026d3;
+            --color--fuchsia--700: #a21caf;
+            --color--fuchsia--800: #86198f;
+            --color--fuchsia--900: #701a75;
+
+            --color--pink--50: #fdf2f8;
+            --color--pink--100: #fce7f3;
+            --color--pink--200: #fbcfe8;
+            --color--pink--300: #f9a8d4;
+            --color--pink--400: #f472b6;
+            --color--pink--500: #ec4899;
+            --color--pink--600: #db2777;
+            --color--pink--700: #be185d;
+            --color--pink--800: #9d174d;
+            --color--pink--900: #831843;
+
+            --color--rose--50: #fff1f2;
+            --color--rose--100: #ffe4e6;
+            --color--rose--200: #fecdd3;
+            --color--rose--300: #fda4af;
+            --color--rose--400: #fb7185;
+            --color--rose--500: #f43f5e;
+            --color--rose--600: #e11d48;
+            --color--rose--700: #be123c;
+            --color--rose--800: #9f1239;
+            --color--rose--900: #881337;
+}
+
+          /* COMPONENTS */
+
+          /*
+            https://github.com/twbs/bootstrap/blob/7d9adb702d96f9eb4706afb12cd73c9654979575/scss/mixins/_visually-hidden.scss
+            https://tailwindcss.com/docs/screen-readers
+            https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
+            https://hugogiraudel.com/2016/10/13/css-hide-and-seek/
+            https://github.com/twbs/bootstrap/issues/25686
+            https://accessibility.18f.gov/hidden-content/
+          */
+          .visually-hidden,
+          .visually-hidden--interactive:not(:focus):not(:focus-within):not(:active) {
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            border: 0;
+            margin: -1px;
+            position: absolute;
+            overflow: hidden;
+            -webkit-clip-path: inset(50%);
+                    clip-path: inset(50%);
+            white-space: nowrap;
+          }
+
+          /* INLINE STYLES */
+
+          
+                  .style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md {
+                    
+              font-family: "Roboto", var(--font-family--sans-serif);
+              font-size: var(--font-size--sm);
+              line-height: var(--line-height--sm);
+              color: var(--color--gray--warm--200);
+              background-color: var(--color--gray--warm--800);
+            
+                  }
+
+          
+                  .style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md a {
+                cursor: pointer;
+                transition-property: var(--transition-property--colors);
+                transition-duration: var(--transition-duration--150);
+                transition-timing-function: var(
+                  --transition-timing-function--in-out
+                );
+              }
+
+          
+                  .style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md img,
+              .style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md iframe {
+                max-width: 100%;
+                border-radius: var(--border-radius--lg);
+              }
+
+          
+                  .style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md.style--14v94md img {
+                height: auto;
+              }
+
+          
+                  .link:hover,
+                  .link:focus-within,
+                  .link.active {
+                    color: var(--color--purple--400);
+                  }
+
+          
+                  .link:active {
+                    color: var(--color--purple--500);
+                  }
+
+          
+                  .tippy-box {
+                  font-size: var(--font-size--sm);
+                  line-height: var(--line-height--sm);
+                  color: var(--color--purple--200);
+                  background-color: var(--color--purple--900);
+                }
+
+          
+                  .tippy-box .tippy-svg-arrow {
+                    fill: var(--color--purple--900);
+                  }
+
+          
+                  .tippy-box {
+                  border-radius: var(--border-radius--md);
+}
+
+          
+                  .tippy-box .tippy-content {
+                    padding: var(--space--1) var(--space--2);
+                  }
+                
+                  .style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g {
+                    
+                color: var(--color--red--50);
+                background-color: var(--color--red--700);
+                display: flex;
+                justify-content: center;
+              
+                  }
+                
+                  .style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g a {
+                  text-decoration: underline;
+                }
+                
+                  .style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g a:hover,
+                  .style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g a:focus-within {
+                    color: var(--color--red--200);
+                  }
+                
+                  .style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g.style--102ce8g a:active {
+                    color: var(--color--red--300);
+                  }
+                
+                  .style--1wzd8ir.style--1wzd8ir.style--1wzd8ir.style--1wzd8ir.style--1wzd8ir.style--1wzd8ir {
+                    
+                  flex: 1;
+                  min-width: var(--space--0);
+                  max-width: var(--width--prose);
+                  margin: var(--space--4);
+                
+                  }
+                
+                  .style--1bsqhdh.style--1bsqhdh.style--1bsqhdh.style--1bsqhdh.style--1bsqhdh.style--1bsqhdh {
+                    
+                background-color: var(--color--gray--warm--900);
+                display: flex;
+                justify-content: center;
+              
+                  }
+                
+                  .style--313c7e.style--313c7e.style--313c7e.style--313c7e.style--313c7e.style--313c7e {
+                    
+                  flex: 1;
+                  min-width: var(--space--0);
+                  max-width: var(--width--prose);
+                  margin: var(--space--4) var(--space--4) var(--space--2);
+                
+                  }
+                
+                  .style--313c7e.style--313c7e.style--313c7e.style--313c7e.style--313c7e.style--313c7e > * + * {
+                    margin-top: var(--space--4);
+                  }
+                
+                  .style--1a2ojl.style--1a2ojl.style--1a2ojl.style--1a2ojl.style--1a2ojl.style--1a2ojl {
+                    
+                    display: flex;
+                    justify-content: center;
+                  
+                  }
+                
+                  .style--1ofv767.style--1ofv767.style--1ofv767.style--1ofv767.style--1ofv767.style--1ofv767 svg {
+                          width: var(--space--28);
+                          height: auto;
+                        }
+                
+                  .style--1ofv767.style--1ofv767.style--1ofv767.style--1ofv767.style--1ofv767.style--1ofv767 * {
+                          fill: currentColor;
+                        }
+                
+                  .style--u579ah.style--u579ah.style--u579ah.style--u579ah.style--u579ah.style--u579ah {
+                    
+                        text-transform: uppercase;
+                        font-weight: var(--font-weight--bold);
+                        letter-spacing: var(--letter-spacing--widest);
+                        margin-left: var(--space--2);
+                      
+                  }
+                
+                  .style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5 {
+                    
+                    font-size: var(--font-size--base);
+                    line-height: var(--space--6);
+                    display: flex;
+                    justify-content: center;
+                  
+                  }
+                
+                  .style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5 > * + * {
+                      margin-left: var(--space--4);
+                    }
+                
+                  .style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5.style--1v3clp5 {
+                    flex-wrap: wrap;
+}
+                
+                  .style--gc013x.style--gc013x.style--gc013x.style--gc013x.style--gc013x.style--gc013x {
+                    
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: var(--space--2);
+                  
+                  }
+                
+                  .style--xv70n9.style--xv70n9.style--xv70n9.style--xv70n9.style--xv70n9.style--xv70n9 {
+                    
+                display: flex;
+                justify-content: center;
+              
+                  }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 {
+                    
+                  flex: 1;
+                  min-width: var(--space--0);
+                  max-width: var(--width--prose);
+                  margin: var(--space--4);
+                
+                  }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 > * + * {
+                    margin-top: var(--space--2);
+                  }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 a {
+                    text-decoration: underline;
+                    color: var(--color--purple--300);
+                  }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 a:hover,
+                    .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 a:focus-within {
+                      color: var(--color--purple--200);
+                    }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 a:active {
+                      color: var(--color--purple--400);
+                    }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 h2 {
+                    font-size: var(--font-size--base);
+                    line-height: var(--line-height--base);
+                    font-weight: var(--font-weight--bold);
+                    color: var(--color--gray--warm--50);
+                    margin-top: var(--space--6);
+                  }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 strong {
+                    font-weight: var(--font-weight--bold);
+                    color: var(--color--gray--warm--50);
+                  }
+                
+                  .style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3.style--ku4mf3 em {
+                    font-style: italic;
+                  }
+                
+        
+      </style>
+    </head>
+          <body class="style--14v94md">
+            <div class="style--102ce8g">
+              <div class="style--1wzd8ir">
+                Hi! This website has been coded by <a href="www.leafac.com">leafac</a>.
+                You can find the source code on my Github! Some parts may be under construction!
+              </div>
+            </div>
+            <header class="style--1bsqhdh">
+              <div class="style--313c7e">
+                <h1 class="style--1a2ojl">
+                  <a href="/" class="link">
+                    <div class="style--1ofv767">
+                      <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg viewBox="0 0 581.15994 196.95" version="1.1" id="svg97" sodipodi:docname="iddqd3 white.svg" width="581.15997" height="196.95" inkscape:version="1.1 (c4e8f9e, 2021-05-24)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview99" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" showgrid="false" inkscape:zoom="0.39645209" inkscape:cx="288.81169" inkscape:cy="89.544237" inkscape:window-width="1280" inkscape:window-height="667" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="1" inkscape:current-layer="svg97"></sodipodi:namedview>
+  <defs id="defs73">
+    <style id="style71">.cls-1{fill:#fff;}</style>
+  </defs>
+  <g id="individual" transform="translate(-7.06,-205.89)">
+    <g id="final">
+      <path class="cls-1" d="m 520.25,281.77 -21,49.55 a 29.69,29.69 0 0 1 -10.56,12.52 q -7.5,5.28 -15,5.27 -7.5,-0.01 -10.47,-5.27 -3,-5.31 0.06,-12.52 l 21,-49.55 h -35.74 l -21,49.55 q -6.24,14.7 -0.18,25.24 6.06,10.54 20.77,10.53 h 18 q 15.87,0 25.6,-18 l -7.63,18 h 35.76 L 556,281.77 Z" id="path75"></path>
+      <path class="cls-1" d="m 511.68,259.62 h 53.73 l 22.81,-53.73 h -35.76 l -15.18,35.76 h -35.94 q -14.61,0 -29.66,10.55 a 69.5,69.5 0 0 0 -8.93,7.42 z" id="path77"></path>
+      <path class="cls-1" d="m 449.41,259.14 7.42,-17.49 h -71.69 q -14.77,0 -29.78,10.63 a 72.39,72.39 0 0 0 -8.31,6.86 z" id="path79"></path>
+      <path class="cls-1" d="m 404.26,281.29 -21.24,50 a 29.69,29.69 0 0 1 -10.56,12.52 q -7.5,5.28 -15,5.27 -7.5,-0.01 -10.46,-5.29 -3,-5.32 0.12,-12.64 l 21.16,-49.86 h -35.74 l -21.16,49.86 q -6.24,14.69 -0.21,25.31 6.03,10.62 20.72,10.63 h 18 q 15.87,0 25.6,-18 l -23,53.75 h 35.92 L 440,281.29 Z" id="path81"></path>
+      <path class="cls-1" d="m 331.59,259.14 22.61,-53.25 h -35.76 l -15.18,35.76 h -35.94 q -14.61,0 -29.66,10.55 a 69.56,69.56 0 0 0 -8.43,6.94 z" id="path83"></path>
+      <path class="cls-1" d="m 286.44,281.29 -21.24,50 a 29.69,29.69 0 0 1 -10.56,12.52 q -7.5,5.28 -15,5.27 -7.5,-0.01 -10.47,-5.27 -3,-5.31 0.06,-12.52 l 21.23,-50 h -35.74 l -21.23,50 q -6.24,14.7 -0.18,25.24 6.06,10.54 20.77,10.53 h 18 q 15.87,0 25.6,-18 l -7.63,18 h 35.76 l 36.42,-85.8 z" id="path85"></path>
+      <path class="cls-1" d="m 215.87,259.14 22.6,-53.25 h -35.75 l -15.18,35.76 H 151.6 q -14.61,0 -29.66,10.55 a 70.45,70.45 0 0 0 -8.44,6.94 z" id="path87"></path>
+      <path class="cls-1" d="m 170.72,281.29 -21.24,50 a 29.69,29.69 0 0 1 -10.56,12.52 q -7.5,5.28 -15,5.27 -7.5,-0.01 -10.48,-5.27 -3,-5.31 0.07,-12.52 l 21.23,-50 H 99 l -21.23,50 q -6.24,14.7 -0.18,25.24 6.06,10.54 20.76,10.53 h 18 q 15.87,0 25.6,-18 l -7.63,18 h 35.76 l 36.42,-85.8 z" id="path89"></path>
+      <polygon class="cls-1" points="60.31,241.65 52.88,259.14 88.65,259.14 96.08,241.65 " id="polygon91"></polygon>
+      <polygon class="cls-1" points="42.83,367.09 79.25,281.29 43.48,281.29 7.06,367.09 " id="polygon93"></polygon>
+    </g>
+  </g>
+</svg>
+
+                    </div>
+                    <div class="style--u579ah">
+                      IDDQD Sound
+                    </div>
+                  </a>
+                </h1>
+
+                <nav class="style--1v3clp5">
+                  <a href="/" class="link ">Home</a>
+                  <a hidden="" href="/tutorials" class="link ">Tutorials</a>
+                  <a hidden="" href="/Lessons" class="link ">Tutorials</a>
+                  <a href="/reel" class="link ">Reel</a>
+                  <a href="/music" class="link ">Music</a>
+                  <a href="/blog" class="link active">Blog</a>
+                  <a href="/bio" class="link ">Bio</a>
+                  <a hidden="" href="/contact" class="link ">Contact</a>
+                </nav>
+
+                <nav class="style--gc013x">
+                  <a href="https://www.youtube.com/c/iddqdmusic" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;YouTube&quot;,
+                      });
+                    ">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://www.facebook.com/IDDQD-Sound-102849891477564/" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;Facebook&quot;,
+                      });
+                    ">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="https://linktr.ee/iddqdsound" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;My Music&quot;,
+                      });
+                    ">
+                    <i class="fas fa-music"></i>
+                  </a>
+                  <a href="https://www.buymeacoffee.com/iddqdsound" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;Buy Me a Coffee&quot;,
+                      });
+                    ">
+                    <i class="fas fa-mug-hot"></i>
+                  </a>
+                  <a href="https://www.paypal.me/iddqdsound" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;Donate on Paypal&quot;,
+                      });
+                    ">
+                    <i class="fab fa-paypal"></i>
+                  </a>
+                  <a href="https://www.instagram.com/iddqdmusic" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;Instagram&quot;,
+                      });
+                    ">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://twitter.com/IDDQDMusic" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;Twitter&quot;,
+                      });
+                    ">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                  <a href="https://github.com/iddqdsound/reaper/tree/main" class="link" oninteractive="
+                      tippy(this, {
+                        content: &quot;Github Repository&quot;,
+                      });
+                    ">
+                    <i class="fab fa-github"></i>
+                  </a>
+          
+                  
+                   <a href="mail to:info@iddqdsound.com" class="email" oninteractive="
+                      tippy(this, {
+                        content: &quot;Email me! info@iddqdsound.com&quot;,
+                      });
+                    ">
+                    <i class="fas fa-at"></i>
+                  </a>
+                </nav>
+
+                <!-- 
+-Bio (Full bio, picture)
+-Contact
+-(Optional) Gallery (or possibly in the music page or spread out in all the pages)
+      --></div>
+            </header>
+
+            <main class="style--xv70n9">
+              <div class="style--ku4mf3">
+                <h2>3 ways to reduce the size of your finished REAPER Projects</h2>
+<p><img src="/blog/misc/6/AYP.png" alt=""><br>
+<a href="http://www.freepik.com">Artwork Designed by upklyak / Freepik</a></p>
+<p>Hey folks!<br>
+In <a href="https://youtu.be/Gks-hwyRk4I">this tutorial</a> we’re gonna look at 3 ways to archive your finished REAPER Projects. REAPER offers multiple ways of doing this, including various glue actions &amp; the render window, but today we're gonna focus on what's possible using the 'Consolidate/Export Tracks' window. Each method has its own pros and cons, of course. My main goal when archiving a finished project is to make sure its size is as small as possible, so I can store more projects without having to buy more hard drives or cloud storage. I recently finished mixing <a href="https://distrokid.com/hyperfollow/iddqd/kurdistan-waltz-feat-jayne-karma-lamo">my new single</a> so I thought to use it as a real-life example, but of course every project is different, as well as different Audio professionals may have different archiving needs. Leave a comment somewhere if you want tutorials focusing on film or game audio projects and I'll make sure to do that as soon as possible, but hopefully once you understand the options provided to you in this REAPER window, you will be able to archive your project in the most efficient way possible based on your personal workflow and needs. For now, let's get into it!</p>
+<p><strong>DISCLAIMER:</strong> <em>I have received a frankly insane number of comments on this tutorial from members in the music industry with regards to what they perceive is deleting crucial data. I was simply using this project as an example to show what is possible using the Consolidate/Export Tracks window. It is, and I did not think I would actually need to mention this, up to you to make a judgement call on what you want to take out of the project, and it is of course up to you to make sure you're not deleting anything you are going to need.</em></p>
+<p><strong>The Importance of Organization &amp; Archiving</strong><br>
+Early on in my music-making days, I made music as inspiration struck! I would open Ableton Live 8 (the first DAW I ever used) &amp; get right to composing, never bothering to name tracks or color-coding them. Once done, I would hit save and literally drag my fingers across the keyboard and hit okay, not bothered with exactly where I was storing things, and not sparing a single thought for the possibility of needing to get back to them at some point in the distant or even near future! All my projects were named something like 'sadhjgdaskhjgdsa' and each contained a bunch of tracks named 'audio 1', 'audio 2', 'MIDI 1', 'MIDI 2' and the source files were strewed about all over my laptop hard drive. I would bet that lots of you can relate!</p>
+<p>Unsurprisingly, I lost A LOT of projects! Most were garbage, some were gold, almost all are gone forever. They play in my head, and sometimes I make half-successful attempts at reviving them (My new album is almost all about doing that) but it's basically impossible to replicate the same tones &amp; rawness.</p>
+<p>As you begin to take your audio career seriously, organization becomes key. You often work for clients, so losing stuff becomes less of an 'Awww...oh well!' thing and more of a 'Hope I don't get fired' thing as you frantically run searches across your many drives, opening 300 random projects in vain! Organization is one of the facets of being a pro that people overlook, but the one group of people who never do, are clients, employers, studio owners, people who invest in our creative careers. There are lots of people who can do good work when it comes to music, film sound and game audio, but not all of them can be trusted with unique, sensitive material that can lose someone money and time if they were lost! So staying organized is one of those skills that can serve as your calling card! People remember a good organizer! I've rarely received any memorable compliments on my work from my bosses, but I have seen them half orgasmic at the sight of my well-archived drives!</p>
+<p>Archiving is important for the same reasons. I learned this the hard way, and now I have a solid naming convention for all my files &amp; projects, a rigid folder structure for how I save everything, and I haven't lost anything in ages. I am confident that I can easily and quickly find a guitar track I recorded 2 years ago, 2 years from now! One day I will do a tutorial on these as well, but for now, let's get archiving with what you already have!</p>
+<p>REAPER, as always, gives you the best of both worlds when it comes to staying organized, without losing the spontaneity that creative work often inspires. I have built somewhat of a muscle memory for naming stuff and keeping organized as I go, but even if you don't, REAPER allows you to painlessly organize &amp; de-clutter your project, and gives you many options to archive it so that it takes as little space on your hard drive as possible, without ever asking you to compromise on the quality or quantity of whatever you need to store!</p>
+<p><strong>Preparing a project for archiving</strong><br>
+Before storing your projects, there are a few things you should do. Some of us do this as we go, and some leave it for the end. In any event, here are some general tips:<br>
+<strong>1. Name &amp; re-order all your tracks appropriately</strong>: If you haven't done this already, take a few minutes to name your tracks based on what they contain &amp; put some thought into their order. For music projects, you should group your tracks based on element: Drums, Bass, Synths, Guitars, Vocal tracks, and so on! I won't tell you how to order and name your tracks, but I would advise that you pick a naming/coloring/ordering convention, and stick to it forever!<br>
+<strong>2. Trim out &amp; delete unused audio</strong>: If you have lots of rendered silence from importing multitracks/stems, discarded audio takes from recording, duplicated &amp; hidden tracks, or any audio that you no longer need (or never needed), now's the time to get rid of them. One way of making quick work of trimming rendered silence is using the <a href="https://www.youtube.com/watch?v=PLBWt3fzAfM">Dynamic Split menu</a>, but for everything else, some manual labour is probably required. Hopefully you will over time learn to do this as you go.<br>
+<strong>3. Clean up Project Directory</strong>: After steps 1 &amp; 2, save your project, and then go to <strong>File&gt;Clean Up Project Directory...</strong><br>
+Here you can see all the source media that exist in your project directory, but are no longer in use. These will include large audio files that you brought in and glued, stuff you may have frozen and unfrozen, and items that never made the final cut in your mix! Hit <strong>Cmd+A (Ctrl+A on PC)</strong> to select them all, tick the box below to send them to trash, and remove them! This may already drastically reduce your project size. Make a judgement call on how conservatively or liberally you want to de-clutter your files. Don't delete anything you may later need, or may not have any backups of.<br>
+<img src="/blog/misc/6/clean-up-proj-dir.png" alt=""></p>
+<p><strong>SECOND DISCLAIMER</strong>: <em>I feel the need to once again clarify what should really go without saying: DO NOT DELETE ANYTHING THAT YOU SHOULDN'T DELETE! When you clean up a project directory, keep in mind that other projects using the same source media WILL LOSE ACESS to those files. This is not some quirk of REAPER, but basic computer science. Any given project can only access its own project directory, and the above menu can show you all the files in THAT Project that are no longer in use. If your REAPER is set up such that files are shared across projects, take care not to delete anything you may potentially need. I personally have mine set up such that all media is copied into my project directory, and where needed, I make extra backups. If you want to learn more about this topic, I highly recommend watching <a href="https://www.youtube.com/watch?v=tk6WLWDYlyU">this video by the REAPER blog</a> and this is exactly how I set mine up. I also almost never ever use the Save as... function, with very rare exceptions. In all such cases, again, I understand that it is up to me to make sure that I don't use this feature thoughtlessly. The most important thing, is understanding all these functions, and hopefully you'll be able to use your own judgement to do what is best for YOU!</em></p>
+<p><strong>4. Delete offline &amp; bypassed FX</strong>: During a mix, you may have brought in lots of plugins that you are no longer using. Deleting these won't have an effect on the final project size, but will reduce the loading time of your project when you open it in the future!<br>
+<strong>Bonus step</strong>: I highly recommend you also take some time to go through your project, and save a few FX Chains &amp; Track templates, maybe even some samples. Doing this over time will build you a nice library of ready-to-use FX Chains &amp; Track structures, that you can use in your future project. This will speed up your future mixing, and provide your work with consistency. Whatever you did on this project that worked, is likely to work in similar situations with some minor tweaking down the road. I always include the name of the project in these, so that I can easily get to the same kick tone as my older projects, and so on!</p>
+<p><strong>Consolidate/Export Tracks window</strong></p>
+<p>This window is designed to quickly render all your project media for exporting, archiving &amp; organizing. To access it, go to <strong>File&gt;Consolidate/Export Tracks</strong> to see a window with lots of options. Let's break them down:<br>
+<img src="/blog/misc/6/reaper-consolidate-export-window.png" alt=""><br>
+<strong>1. Project Bounds, Tracks &amp; Items</strong>: From the top, you can select the bounds of your project in time.<br>
+Set to 'Entire Project' to consolidate the entire project. You can define your project bounds two ways:<br>
+-In File&gt;Project Settings, you can set a start &amp; end time for your project.
+-More elegantly, you can create two markers in your project, named =START and =END (all caps and equal sign must be included). This special syntax markers can also convey the bounds of your project to REAPER. I prefer this method because I can more easily move markers around, and make sure my whole project, including any audio tail, is caught within the bounds of my project.<br>
+You can also set a time selection before opening this window, and use the 'Time Selection' option.
+Finally, you can set a Custom length right from this window, using the three text boxes.
+For tracks, choose 'Selected' to consolidate a selection of your choosing, or set to 'All'. Choosing the 'All' option will consolidate every track with at least one item on it within the selected time bounds. This will exclude any parent tracks, auxillary tracks, or empty tracks!<br>
+Lastly, the box named 'Ignore silence shorter than' (which seems to be a misprint) will give you some additional control:<br>
+When ticked, you can set a number (in seconds) for the minimum amount of silence between two items in a track. If a track contains items that are further apart than your specified number, REAPER will export multiple audio files for that track. This is great as it reduces the final size of your archive, but the downside is that you will lose the ability to simply drag and drop your consolidate files into a new project, or another DAW, and have it fall in sync with the rest automatically.<br>
+When unticked, REAPER will always render a single file per selected track, and every file will be the length of the selected time bounds, regardless of what's on it!</p>
+<p><strong>2. File Formatting</strong>: Here you can set the format for the exported files:<br>
+<strong>-Sample rate</strong>: All the classic sample rate options you would expect can be found here. I personally record &amp; render everything in 48k, but if you use a different sample rate, it's best to choose that here. If your project contains files of multiple sample rate, you can choose the highest sample rate, or downsample to a common one. Having the same sample rate for all stored files is recommended if you wish for your archive files to be cross-compatible with other DAWs, as most are not able to host files of different sample rates within the same project.<br>
+<strong>-Channels:</strong> Here you can specify the same number of channels for all tracks (1 to downmix all to mono, 2 to export all as stereo, or choose any number of channels you want). You also have two options for REAPER to automatically set this per file. Auto (source media) will look at the source file for each track's items, and automatically choose a channel count based on the channel count of the largest item on each track. Auto will do the same but it will respect the takes/items when deciding the channel. For example, in the event that you have brought in a stereo source file as an item, and downmixed/split it into mono yourself, REAPER will render those a mono file, instead of stereo.<br>
+<strong>-Resample Mode:</strong> This option should always be set to the maximum setting (Extreme HQ). This does not affect the file size at all, but may increase render time. This setting only makes a difference when rendering items that include Stretch markers, pitch envelopes, or items with a rate that isn't equal to 1. The higher the setting, the more sync points will be used to render them, assuring the highest possible quality post-processing.<br>
+<strong>-Consolidate to:</strong> Here you can set the format of the consolidated media. These options are available:<br>
+WAV: The most cross-compatible option possible, WAV files (pronounced Wave) are the most common type of professional audio. This format is recognized by All DAWs, but they are also the heaviest option available. You can calculate the size of WAV files with the formula below:<br>
+Number of channels * Duration (seconds) * sample rate * bit-depth = file bitrate (in bits)<br>
+divide that by 1024*1024 to get to MB.<br>
+<em>example: 1 second of stereo WAV audio at 48k/24bit is 0.288MB</em><br>
+AIFF: Apple-Proprietary lossless audio format. This format is still quite cross-compatible on Mac system, and can store certain metadata useful for samples &amp; loops, such as loop points, and sample pitch. Suitable for sample &amp; loop libraries. In cases other than this, it's best to stick to WAV.<br>
+DDP: DDP stands for Disc Protection Protocol. This format is commonly used when delivering audio material for Physical Disk releases. I store my final mastered albums in this format, as well as the regular WAV format. Many labels &amp; CD/DVD manufacturers may specifically request this format, which includes important metadata for mass-manufactured commercial releases.<br>
+FLAC: FLAC is a lossless compression format. You can store your files in this format at no bit reduction, but beware that while REAPER is able to process this format, many DAWs don't accept it, so it may not be suitable if you don't plan to stick to REAPER for the foreseeable future, or if you collaborate with other artists and users of other DAWs.<br>
+MP3: This is a lossy compression format. Storing your files as MP3 will drastically reduce the size of projects, but will degrade the quality of your audio. I do not recommend this option, unless you are saving lots of material where audio quality is unimportant, such as a massive back catalogue of podcasts.<br>
+OGG Vorbis &amp; OGG Opus: This is another lossy compression format. Like MP3, these formats will leave you with very small project sizes, but OGG is not very cross-comptabile, especially on many consumer-grade media players. They are used, however, in game audio, apps, and in other audio applications where a hard limit on audio delivery size is imposed. In many apps &amp; video games, you are limited to a few hundred megabytes to deliver all audio assets. For any other application, I do not recommend this option. OGG Opus is the successor to the Vorbis format, improving upon the quality, so if backwards-compatibility is not an issue, Opus should always be preferred.<br>
+Video (LCF): This is the LiceCap format for videos and GIFs made by REAPER developers. This is the only video option available, however this format is severely limited in resolution, frame rate &amp; color space. Do not use this option unless specifically instructed to!<br>
+WavPack loss compressor: This is the best compression format available. Storing your files in this format can reduce the project size without any degredation to audio quality. However, make sure that, as with FLAC, you will not run into compatibility issues.<br>
+Overall, I would choose WAV for all cases unless otherwise specified in your delivery specs. For personal archiving, likewise, WAV is the most suitable and cross-compatible option. You can always re-consolidate your files from WAV to any other format if needed!<br>
+<strong>-WAV Bit depth:</strong> When WAV is selected, you can choose the bit depth here. Floating point bit depths will drastically INCREASE your project size, but are a safe option that does not clip in the digital realm! I prefer to make sure files don't clip before storing my projects, but again, in the case of sample &amp; loop libraries, FP bit depth values may be a superior option, despite their larger size.<br>
+<strong>-Large Files:</strong> Certain audio formats have an upper limit on size, and very large files can also take a long time to render and are privy to crashing/corruption. In any project that is under 60-minutes in length, this option will not come in play.</p>
+<p><strong>3. Metadata</strong>: In this section, you can choose to include certain metadata &amp; extra files in your export.<br>
+<strong>-Write BWF ('bext') chunk:</strong> BWF stands for Broadcast Wave File. This is a chunk of metadata that stores some useful information, suitable for DAW-proofing your arhives. Every DAW is able to read, index &amp; searched audio files using this chunk, which includes information such as origin, time created, timecode in source project, and can additionally include project name. While all of this data is available when consolidating files within a REAPER project, they are very lightweight so it's a non-risk to include them anyway, apart from the potential minor annoyance of printing cue markers.<br>
+<strong>-Cue markers:</strong> You can set your markers, regions, or both, to be printed as cue markers onto your files. Additionally, you can set only specific markers and/or regions starting with the # symbol to be included. Useful for collaboration projects and heavily used in game audio assets.<br>
+<strong>-Embed tempo:</strong> This will write the tempo &amp; time signature of your project on the files, useful for projects with tempo changes, or when exporting loops for libraries.<br>
+<strong>-Export MIDI as:</strong> by default, REAPER stores all MIDI information inside the .RPP file in every project. Many other DAWs, like Logic Pro X, also do this. However, you can choose to export your project MIDI information as .MID files. You can export project MIDI as a type 0 .MID file (includes all MIDI data in a project) or here, you can export individual .MID files per track (Type 1). Once again, this is a safe option most of the time, as .MID files are extremely small in size.<br>
+<strong>-Consolidated filename:</strong> Here you can set a naming convention, using strings and <a href="https://www.youtube.com/watch?v=zVOoSm8-Z14">wildcards</a> for all consolidated files. The default here is $tracknumber-$trackname-consolidated, but I strip the last bit of string from my archives. This is of course, ultimately your call to make. The best practice is to choose a convention and stick to it. $tracknumber-$trackname is a good option as the track number will make your directory easy to sort in order that the files appear in the project, and track name makes for an easy way to search through your files.</p>
+<p><strong>4. Output</strong>: Here you can set a directory, and finalize your consolidation.<br>
+Choose the directory first. If you wish to archive files within your project, you can set this to your current project directory.<br>
+Update project with consolidated files will replace all items in your projects with the new files.<br>
+You can also save a new project here, suitable if you plan to keep working on your current project.<br>
+Finally, you can tick the final box to save your current project state to be reloaded should the render fail.</p>
+<p>Hit 'Process' when all options are carefully set. Curiously, REAPER does not provide a way to save these settings as presets, but as previously mentioned, it's very likely that users will set these once and continue to use the same settings throughout their career!</p>
+<p>Now let's get to our first 2 method which both use this window!</p>
+<p><strong>First method (Multitrack Archiving)</strong></p>
+<p>The first method uses the Consolidate/Export Tracks menu to print multitracks. These are useful in that they will produce files that are future-proof and DAW-proof. Even if, some time down the road in your career, you decide to switch DAWs, you can easily and quickly import these into any DAW if needed. This method is also useful if you have a recording project with lots of discarded audio, that you need to archive and/or send to a producer to be mixed.</p>
+<p>To do this, I will select the settings below:<br>
+<img src="/blog/misc/6/consolidation-method-1.png" alt=""></p>
+<p>Once done, you will end up with multitrack wav files that are all the same duration, with some useful metadata baked into them, and they will be neatly named &amp; numbered, allowing you to drag &amp; drop them into any DAW, and they will immediately be on grid, in the same order you left them, and ready to be mixed. If you frequently collaborate with other artists, or if you have to deliver work to other professionals, this method is highly recommended. You can store these files in your archives, and delete the project if needed!</p>
+<p>The downside is that, based on your project, this method may actually INCREASE your project size. With tracks with multiple items scattered through them and long periods of silence in between, you will end up with lots of rendered audio, which can weigh a ton. This is also somewhat of a commitment to certain aspects of your project, namely, everything on the item level in REAPER:
+-Stretch markers &amp; Item rate
+-Item FX &amp; Envelopes
+-Fades, Crossfades &amp; free item positioning.</p>
+<p>All of these will be baked into the consolidated audio. <em>note that consolidation will not bake in Track-Level FX, envelopes or any Parallel/Bus processing! Should you want that, you should just use the render window!</em></p>
+<p><strong>Bonus tip: Calculating the size of WAV Files</strong>
+<strong>Second method (RPP Archiving</strong></p>
+<p>The second method will give you the smallest project size possible, and as a bonus, will make your current project your archive project, so your routing, folder structure, color, automation &amp; FX Chains will all be preserved. The only downside to it is that you will only be able to use REAPER to open these in the future! So commiting to this style of archiving will also mean a commitment to REAPER as your DAW, which is not much of a big deal if you ask me. REAPER is cheap, runs on anything, and REAPER devs have a spotless track record when it comes to assuring backwards compatibility despite updating the DAW more often than arguably any DAW out there! I am confident that REAPER project I archive today can be opened easily in 10 years, and I will be able to navigate my way around those projects just as easily then! If not, I also know that older installs of REAPER are always available, short of a major evolutionary leap in computing technology!</p>
+<p>This is my preffered method, and I will select the settings below:<br>
+<img src="/blog/misc/6/consolidation-method-2.png" alt=""></p>
+<p>Once done, your current projectory will become what you archive. You will notice that your project file gets bigger after you're done, but all the longer audio files that were once referenced in your project are no longer in use, so once you clean up your project directory, you will see a massive reduction in the size of your project media.</p>
+<p><strong>Third method (XRaym_Glue items indepently)</strong>
+Saving the best for last, this option is perfect for music projects &amp; overall for any personal use. With a single action by the incredible XRaym, we can quickly reduce the size of any project massively! Simply open your project, Select all items &amp; run 'XRaym_Glue items independently'. As the name suggest, this will glue all items individually, without rendering the silence between them, and as a bonus, compared to the second method, this will preserve the name, fades &amp; crossfades for every single item. I personally prefer to spend the extra name to get the more neatly named tracks, but otherwise, this method will get you to the same place fast.<br>
+Like before, make sure to clean up your project directory after the script has run, save and close your project, and enjoy your tiny project, as will your hard drive/cloud storage!</p>
+<p><strong>The final steps</strong>
+Media files are not the only source of bloated REAPER Projects. REAPER Project files (.RPPs) &amp; Undo History files are unsurprisingly heavy, given REAPER's non-desctructive nature &amp; the insane scope of actions that they hold on to. This will mean that your auto-backups &amp; saves, can sometimes weigh just as much, if not outweigh, your media in any given project, and the longer you spend on a project, the bigger they get!</p>
+<p>This is a great thing while you are in the heat of the project, as these files protect us against crashes, human error &amp; can help us get back on track in all these cases, but once I am done with a project, it's very unlikely that we would need to revert back 5 save points, or undo the last 200 actions we have done. So I personally don't bother holding on to these files. This is of course, a judgement call only you can make, but at the very least you can delete the auto backups and undo history without worries. As long as the main .RPP file, Simply named after your project followed by .RPP, you will be able to open it in the future. Everything else is decoration! In this particular project which I had sporadically worked on for a few weeks, My backups &amp; undo history had added up to about 2.5GB, and deleting them brought my massive 4.52GB project to under 1GB!</p>
+<p><strong>Conclusion</strong></p>
+<p>That's really all there is to it. Once you understand your own archiving needs and the consolidate/export window, you can easily reduce the size of your projects for archiving, which saves you lots of space and in turn, money! You will need fewer hard drives/less cloud storage, and you will also be able to quickly and easily navigate your older projects. Taking these simple steps will have your projects look more professional &amp; provide you with a vast library of FX Chains and Track templates that you can continue to use in your future projects!</p>
+<p>Here's the video:</p>
+<p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gks-hwyRk4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </p>
+<p>If you like the work I do, <a href="http://www.buymeacoffee.com/iddqdsound">you can donate to me here</a>! Every little helps, so even if you send a dollar or two my way, I’ll be eternally grateful to you!<br>
+Join the REAPER squad on our Discord Server:<br>
+<a href="https://discord.gg/YwQESKpBfE">https://discord.gg/YwQESKpBfE</a></p>
+<p>Become a member of ‘IDDQD Sound’ on YouTube: <a href="https://www.youtube.com/channel/UCXom6oGEQL7iBGTGaCpyHng/join">https://www.youtube.com/channel/UCXom6oGEQL7iBGTGaCpyHng/join</a></p>
+<p><strong>My Reaper Stash:</strong> <a href="https://stash.reaper.fm/u/IDDQDSound">https://stash.reaper.fm/u/IDDQDSound</a><br>
+<strong>My Reaper Repository:</strong> <a href="https://github.com/iddqdsound/reaper/raw/main/index.xml">https://github.com/iddqdsound/reaper/raw/main/index.xml</a></p>
+<p><strong>Follow me on Instagram:</strong> <a href="https://www.instagram.com/iddqdmusic/">https://www.instagram.com/iddqdmusic/</a></p>
+<p><strong>My Music:</strong><br>
+<a href="https://soundcloud.com/iddqdmusic"><strong>https://Soundcloud.com/iddqdmusic</strong></a><br>
+<a href="https://iddqdmusic.bandcamp.com/"><strong>https://iddqdmusic.bandcamp.com</strong></a></p>
+              </div>
+            </main>
+          
+        
+      </body></html>
