@@ -23,9 +23,23 @@ _“Snr Mark is Very Professional ”_
 
 **Okrah ( Mista DICE)**
 
-_“It was very amazing to work with Mextech Music ”_  
+
+
+
+_“It was very amazing to work with Mextech Music! ”_  
+<img src="/Media/orlando.jpg" alt="Snrmar" width="750">
 
 **SIR ORLANDO**
+
+
+
+
+_“I am in Love with his taste of excellence and that's why i cannot stop working with him ”_  
+<img src="/Media/Baffour.jpg" alt="Snrmar" width="750">
+
+**Dr. Baffour Awuah Oduro- Sarpong**
+
+
 
 
 _“Great production. It was an experience Max. I know in our next meeting will be Extra. I believe in the future. Great experience 🥂🥂”_  
@@ -33,21 +47,36 @@ _“Great production. It was an experience Max. I know in our next meeting will 
 
 **Kwame Obolo (Singer, US)**
 
+
+
+
 _“Personally I love mextech music”_  
 
 **Bari mark fordjour( Singer, Trumpeter)**  
+
+
+
 
 _“Snr Mark (the sound engineer) is always very professional. Treated me with respect and I am sure other clients as well due to the testimonials coming from other musicians who have had the chance to work with him like myself. He always listens patiently, offers great suggestions, and gives me back a high quality demo to listen to, and if there's any need for any necessary corrections or re-recordings, he tells you to hit the studio ASAP to resolve it. He always considers the interest of his clients to his. One thing he dislikes is a breach of contract terms. Very happy working with Mextech music. They are the best so far! Now am a great "ambassador" of theirs. ”_  
 
 **J. Michael( Singer, Rapper)**  
 
+
+
+
 _“Great. You have a great personality. Ready to listen & kind too”_  
 
 **Stunner1z(Rapper)**  
 
+
+
+<img src="/Media/kwame.jpg" alt="Snrmar" width="750">
 _“Fantastic nice guy really does a thourough job ”_  
 
 **Lee John Carter(Singer, Uk)**  
+
+
+
 
 _“More than the word great.”_  
 
