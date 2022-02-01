@@ -162,7 +162,7 @@ const { JSDOM } = require("jsdom");
                     <div
                       style="${css`
                         svg {
-                          width: var(--space--28);
+                          width: var(--space--30);
                           height: auto;
                         }
                         * {
@@ -180,7 +180,7 @@ const { JSDOM } = require("jsdom");
                         margin-left: var(--space--2);
                       `}"
                     >
-                      
+                      Mextech Music
                     </div>
                   </a>
                 </h1>
