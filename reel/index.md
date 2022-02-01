@@ -65,9 +65,11 @@ Check out J. Michael on [Spotify](https://open.spotify.com/artist/3PP2crzXMUkyA3
  
  [J. Michael - Same Thing](https://audiomack.com/mextechmusic/song/same-thing) 
 
+## Stunner1z
 
 <img src="/Media/stunner cover art.jpg" alt="Stunner" width="750">
 <img src="/Media/stunner tracklist.jpg" alt="stunner" width="750">
+
 Check out Stunner1z's Hard Life And Bad Energies Ep [Here](https://audiomack.com/mextechmusic/album/hard-life-bad-energies-ep-1)
 
  ## SOLOIST CASTRO
