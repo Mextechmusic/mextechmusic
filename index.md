@@ -12,6 +12,8 @@ i was nomimated for Choral Producer of the Year and Dr. Mensah ( Universal Chora
 
 I believe i can take your compositions or ideas into a full music production, So book a session with me  and lets work!
 
+<img src="/Media/studiomain.jpeg" alt="Snrmar" width="750">
+
 
 
 ## Testimonials
