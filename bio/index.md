@@ -1,5 +1,7 @@
 <img src="/Media/snr mark 3.jpg" alt="Me" width="750">
 
-Mark Meteku Jr is a Multi-Instrumentalist( Piano & Guitar) Music Producer, Singer Songwriter and Miixing Engineer, born in Ghana in 1996. He began playing piano the age of 10 and could also read Staff Notation,He will Play During Church Services and Choir Rehearsals right about 13 years later, he developed a passion for music production and audio programming and inspiration to learn other genres and explore more, while he was in first year of Nursing Training College <img src="/snr markssch_o.jpg" alt="Me again" width="750"> 
+Mark Meteku Jr is a Multi-Instrumentalist( Piano & Guitar) Music Producer, Singer Songwriter and Miixing Engineer, born in Ghana in 1996. He began playing piano the age of 10 and could also read Staff Notation,He will Play During Church Services and Choir Rehearsals right about 13 years later, he developed a passion for music production and audio programming and inspiration to learn other genres and explore more, while he was in first year of Nursing Training College 
+
+<img src="/snr markssch_o.jpg" alt="Me again" width="750"> 
 
 Throughout his Carrer, Snr Mark has worked in various volumes in the music industry, from session musician to music producer and Chorale Director, as well as working as a freelance mixing Engineer, Song Writer and Recording Artist himself. His story is enlaced into the history of Modern Ghanaian Chorale Music which includes ochestral and modern programming of Sounds.
