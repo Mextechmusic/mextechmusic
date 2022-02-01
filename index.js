@@ -170,7 +170,7 @@ const { JSDOM } = require("jsdom");
                         }
                       `}"
                     >
-                      $${await fs.readFile("Media/iddqd3 white.svg")}
+                      $${await fs.readFile("Media/meextech logo.svg")}
                     </div>
                     <div
                       style="${css`
