@@ -19,6 +19,7 @@ I believe i can take your compositions or ideas into a full music production, So
 ## Testimonials
 
 _“Snr Mark is Very Professional ”_  
+<img src="/Media/mistadice.jpg" alt="Snrmar" width="750">
 
 **Okrah ( Mista DICE)**
 
@@ -26,7 +27,9 @@ _“It was very amazing to work with Mextech Music ”_
 
 **SIR ORLANDO**
 
+
 _“Great production. It was an experience Max. I know in our next meeting will be Extra. I believe in the future. Great experience 🥂🥂”_  
+<img src="/Media/kwame.jpg" alt="Snrmar" width="750">
 
 **Kwame Obolo (Singer, US)**
 

@@ -61,6 +61,7 @@ Some of the Album Tracks
 [Martha Obeng - O Come, All Ye Faithful](https://www.youtube.com/watch?v=p51TarIa4oU)
 
 ## Mr Stephen Frimpong (UK)
+<img src="/Media/snrstephen.jpg" alt="Snrmar" width="750">
 
 [Wa Hw3 Me So by Stephen Frimpong Amponsah](https://www.youtube.com/watch?v=hvE9NbX6svw)
 
