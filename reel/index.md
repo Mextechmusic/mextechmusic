@@ -10,6 +10,7 @@ Below are Lists of works I've done.
 2.[WE GLORIFY BY SAM ASARE-BEDIAKO FT DAN ANTWI, CHRISTIANA AMO KYEREMEH & LOS ANGELES GHANA SDA](https://www.youtube.com/watch?v=qafC3Pb3v-M)
 
 ## The Six (Gh)
+<img src="/Media/the six.png" alt="Millerites" width="750">
 
 1.[KA W'ASEM KYERE YESU (Talk to Jesus) || Composed By Baffour-A. O.-Sarpong](https://www.youtube.com/watch?v=vCD9LCz-71g)
 
