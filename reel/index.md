@@ -25,6 +25,14 @@ Below are Lists of works I've done.
 
 7.[Dwene Ho Yie | O Ponder Well | Dr. Baffour-A. O.-Sarpong | The Six](https://www.youtube.com/watch?v=rAi1cephaIY)
 
+## The Millerites Accapella
+<img src="/Media/millerites_n.jpg" alt="Millerites" width="750">
+
+1.[The Millerites - Heal The World (Cover)](https://www.youtube.com/watch?v=YR7ESEfjO34)
+
+2.[The Millerites - Now Dear Lord ( Hymn Cover)](https://www.youtube.com/watch?v=sBD0yG_7C9c)
+
+
 ## Universal Chorale ( Dr. Sarfo Mensah)
 
 <img src="/Media/UNIVERSAL COVERT.jpeg" alt="Ka Kyer3 Album" width="750">
@@ -98,6 +106,12 @@ Check out Stunner1z's Hard Life And Bad Energies Ep [Here](https://audiomack.com
 9.[I Wanna Let You Know Daddy Loves You](https://www.youtube.com/watch?v=ekvbVNn025E)
 
 10.[It's Christmas Time A Time For Celebrations](https://www.youtube.com/watch?v=9D8KAhDnPoU)
+
+## Bonus Tracks (must have telgram app)
+
+[These](https://t.me/+uiVLRmrksqA3ZDFk) are some exclusive covers and tracks ive recorded but never really made it out on streaming platforms or were just meant to be demos. It includes lots of Covers from Artists like Mawls, Abby, Kwame Obolo, Myself ( Mockups), Man stopper etc.
+
+Subscribe to the Telegram Channel and enjoy! 
 
 
 ## Beats 
