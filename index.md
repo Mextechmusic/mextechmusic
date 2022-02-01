@@ -1,19 +1,31 @@
-<img src="/Media/Snr mark 2_n.jpg" alt="Snrmark" width="750">
+<img src="/Media/Snr mark 2_n.jpg" alt="Snrmar" width="750">
 
-## TL;DR
+## Little Info About Me
 
-I’m Arya. I'm a musician, sound designer, and producer. I've worked in the realm of music and film audio for 14 years & I make audio tutorials in my spare time. I was born in Iran, spent most of my twenties moving from continent to continent with my band, [yada yada yada](/bio) and now I live in Canada where I work as a freelance Dialogue & Podcast Editor, Film Composer & Tutor. 
+Hi There!. My name is Mark Meteku Jr, a Ghanaian Based Music Producer, Keyboardist, Singer Songwriter and Mixing Engineer and a full time Nurse. Ive been playing the Keyboard for close to 13 years, i did Chorale Directing in most Chorale Groups and Church Choirs that i came across or joined in the past years. Just 5 years ago, i got into Music production. I mostly work in Chorale Gospel, Contemporary Gospel, Accapella, Hip Pop and Rnb. I've worked with some renowed chorale composers such as Mr Sam Asare Bediako, Mr Enoch Nyarko, Mr Stephen Frimpong, Dr. Sarfo Mensah ( Universal Choralee), Dr. Baffour Awuah Oduro- Sarpong (The six, Polyphonix Chorale), Bernard Kwabena Boadi ( Sir Orlando),Martha Obeng(Chorale Singer), Soloist Castro( Singer) and Amazing Artists and Groups like Millerites Accapella,J. Michael(Singer and Rapper), Stunner1z(Rapper), Mista Dice( Singer Rapper) Africa Teacher (Singer), GoIller( Singer), Lee John Carter(Singer), CoolboyJ(Singer), Manstopper and many more...I believe i can take your compositions or ideas into a full music production, So hit me up and lets work!
 
 ## Testimonials
 
-_“Through over 15 years of his trials and tribulations in 5 different countries, many great friends lost or taken away from us along the way, and friendships and relationships stretched and tested across the planet, the dude has stayed in perpetual dedication to materialize his formative dream of creating brain-tickling music; a dream that we birthed as little skate-rats in Tehran.”_  
-**Aryan Ashoori, Curator at Shivelight**
+_“Snr Mark is Very Professional ”_  
+**Okrah ( Mista DICE)**
 
-_“Arya is an extremely capable audio artist and gifted in object-based coding. His on-task personality is relaxed yet tenacious, with the ability to give accurate criticism in a lighthearted manner, making him someone I would always be happy to group with on any audio-related project. He also has a great ear for music and composition. He would be an essential asset towards any audio project, and a fun personality at the pub for beers after clocking out. I would not hesitate to hire Arya on to any sound team given the opportunity.”_  
-**Keith Stewart aka Sub-Antics**
+_“It was very amazing to work with Mextech Music ”_  
+**SIR ORLANDO**
 
-_“Arya is one of the most reliable sound designers I have worked with. He is a quick learner and never refuses colleagues asking for help. While working on F.R.O.G, despite losing half our team mid-project, we were able to finish the project in time and produce something we’re proud of!”_  
-**Yusuke Konishi aka Sound Designerd**
+_“Great production. It was an experience Max. I know in our next meeting will be Extra. I believe in the future. Great experience 🥂🥂”_  
+**Kwame Obolo (Singer, US)**
 
-_“Arya's commitment to creating original custom assets was refreshing. In his final Game Audio project, he and a partner accomplished an impressive amount of content and integration in a short timeframe. His hands-on, proactive approach will serve him well in the future.”_  
-**Dorian Pareis, Audio Director at EA**  
+_“Personally I love mextech music”_  
+**Bari mark fordjour( Singer, Trumpeter)**  
+
+_“Snr Mark (the sound engineer) is always very professional. Treated me with respect and I am sure other clients as well due to the testimonials coming from other musicians who have had the chance to work with him like myself. He always listens patiently, offers great suggestions, and gives me back a high quality demo to listen to, and if there's any need for any necessary corrections or re-recordings, he tells you to hit the studio ASAP to resolve it. He always considers the interest of his clients to his. One thing he dislikes is a breach of contract terms. Very happy working with Mextech music. They are the best so far! Now am a great "ambassador" of theirs. ”_  
+**J. Michael( Singer, Rapper)**  
+
+_“Great. You have a great personality. Ready to listen & kind too”_  
+**Stunner1z(Rapper)**  
+
+_“Fantastic nice guy really does a thourough job ”_  
+**Lee John Carter(Singer, Uk)**  
+
+_“More than the word great.”_  
+**Kwame Sarfo**  
