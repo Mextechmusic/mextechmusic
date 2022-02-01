@@ -69,3 +69,17 @@ Check out J. Michael on [Spotify](https://open.spotify.com/artist/3PP2crzXMUkyA3
 
 10.[It's Christmas Time A Time For Celebrations](https://www.youtube.com/watch?v=9D8KAhDnPoU)
 
+
+## Beats 
+
+check my [Youtube Page](https://www.youtube.com/channel/UCpxDpCsdHVu5wjpH_hXxnhA) if you want some Afrobeats, Hip pop and Rnb Beats
+
+ You can chat me up on exclusive deals too.
+
+### Contact
+
+Contact me through My socials at the top of the Page or 
+
+email me through metekujr@gmail.com 
+
+whatsapp (+233593230982) *Text messages only please*
