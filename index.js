@@ -256,7 +256,7 @@ const { JSDOM } = require("jsdom");
                   `}"
                 >
                   <a
-                    href="https://www.youtube.com/c/iddqdmusic"
+                    href="https://www.youtube.com/channel/UCpxDpCsdHVu5wjpH_hXxnhA"
                     class="link"
                     oninteractive="${javascript`
                       tippy(this, {
@@ -267,7 +267,7 @@ const { JSDOM } = require("jsdom");
                     <i class="fab fa-youtube"></i>
                   </a>
                   <a
-                    href="https://www.facebook.com/IDDQD-Sound-102849891477564/"
+                    href="https://web.facebook.com/snrmark.metekujnr/"
                     class="link"
                     oninteractive="${javascript`
                       tippy(this, {
@@ -278,7 +278,7 @@ const { JSDOM } = require("jsdom");
                     <i class="fab fa-facebook"></i>
                   </a>
                   <a
-                    href="https://linktr.ee/iddqdsound"
+                    href="https://open.spotify.com/artist/7pV1auXcg0VRv0Wq3x0OVz?si=b-ZVVSgdTr6rOrw3lO3zeQ&utm_source=copy-link&nd=1"
                     class="link"
                     oninteractive="${javascript`
                       tippy(this, {
@@ -286,32 +286,10 @@ const { JSDOM } = require("jsdom");
                       });
                     `}"
                   >
-                    <i class="fas fa-music"></i>
+                  <i class="fab fa-spotify"></i>
                   </a>
                   <a
-                    href="https://www.buymeacoffee.com/iddqdsound"
-                    class="link"
-                    oninteractive="${javascript`
-                      tippy(this, {
-                        content: "Buy Me a Coffee",
-                      });
-                    `}"
-                  >
-                    <i class="fas fa-mug-hot"></i>
-                  </a>
-                  <a
-                    href="https://www.paypal.me/iddqdsound"
-                    class="link"
-                    oninteractive="${javascript`
-                      tippy(this, {
-                        content: "Donate on Paypal",
-                      });
-                    `}"
-                  >
-                    <i class="fab fa-paypal"></i>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/iddqdmusic"
+                    href="https://www.instagram.com/snr_mark/"
                     class="link"
                     oninteractive="${javascript`
                       tippy(this, {
@@ -322,7 +300,7 @@ const { JSDOM } = require("jsdom");
                     <i class="fab fa-instagram"></i>
                   </a>
                   <a
-                    href="https://twitter.com/IDDQDMusic"
+                    href="https://twitter.com/snr_mark"
                     class="link"
                     oninteractive="${javascript`
                       tippy(this, {
@@ -333,7 +311,7 @@ const { JSDOM } = require("jsdom");
                     <i class="fab fa-twitter-square"></i>
                   </a>
                   <a
-                    href="https://github.com/iddqdsound/reaper/tree/main"
+                    href="https://github.com/Mextechmusic"
                     class="link"
                     oninteractive="${javascript`
                       tippy(this, {
@@ -346,11 +324,11 @@ const { JSDOM } = require("jsdom");
           
                   </a>
                    <a
-                    href="mail to:info@iddqdsound.com"
+                    href="mail to:metekujr@gmail.com"
                     class="email"
                     oninteractive="${javascript`
                       tippy(this, {
-                        content: "Email me! info@iddqdsound.com",
+                        content: "Email me! metekujr@gmail.com",
                       });
                     `}"
                   >
