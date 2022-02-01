@@ -62,6 +62,13 @@ Some of the Album Tracks
 It features Artists like Stunner1z, J. Michael etc.
 
 Check out J. Michael on [Spotify](https://open.spotify.com/artist/3PP2crzXMUkyA3sDXcE0WZ?si=kAOioy0WSru4pY7Nu6NaBg&nd=1)
+ 
+ [J. Michael - Same Thing](https://audiomack.com/mextechmusic/song/same-thing) 
+
+
+<img src="/Media/stunner cover art.jpg" alt="Stunner" width="450">
+<img src="/Media/stunner tracklist.jpg" alt="stunner" width="450">
+Check out Stunner1z's Hard Life And Bad Energies Ep [Here](https://audiomack.com/mextechmusic/album/hard-life-bad-energies-ep-1)
 
  ## SOLOIST CASTRO
 
@@ -96,6 +103,7 @@ Check out J. Michael on [Spotify](https://open.spotify.com/artist/3PP2crzXMUkyA3
 check my [Youtube Page](https://www.youtube.com/channel/UCpxDpCsdHVu5wjpH_hXxnhA) if you want some Afrobeats, Hip pop and Rnb Beats
 
  You can chat me up on exclusive deals too.
+
 
 ### Contact
 
