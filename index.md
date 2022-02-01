@@ -70,7 +70,6 @@ _“Great. You have a great personality. Ready to listen & kind too”_
 
 
 
-<img src="/Media/kwame.jpg" alt="Snrmar" width="750">
 _“Fantastic nice guy really does a thourough job ”_  
 
 **Lee John Carter(Singer, Uk)**  
