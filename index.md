@@ -1,4 +1,4 @@
-<img src="/Media/Arya Headshot_edited.jpg" alt="Arya Afshar at Blue Light Studio" width="750">
+<img src="/Media/Snr mark 2_n.jpg" alt="Snrmark" width="750">
 
 ## TL;DR
 
