@@ -180,7 +180,7 @@ const { JSDOM } = require("jsdom");
                         margin-left: var(--space--2);
                       `}"
                     >
-                      Mextech Music
+                      
                     </div>
                   </a>
                 </h1>
