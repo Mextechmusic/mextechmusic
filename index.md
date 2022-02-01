@@ -2,13 +2,15 @@
 
 ## Little Info About Me
 
-Hi There!. My name is Mark Meteku Jr, a Ghanaian Based Music Producer, Keyboardist, Singer Songwriter and Mixing Engineer and a full time Nurse. I've been playing the Keyboard for close to 13 years, i did Chorale Directing in most Chorale Groups and Church Choirs that i came across or joined in the past years. Just 5 years ago, i got into Music production. I mostly work in Chorale Gospel, Contemporary Gospel, Accapella, Afrobeats, Hip Pop and Rnb. I've worked with some renowed chorale composers such as Mr Sam Asare Bediako, Mr Enoch Nyarko, Mr Stephen Frimpong, Dr. Sarfo Mensah ( Universal Choralee), Dr. Baffour Awuah Oduro- Sarpong (The six, Polyphonix Chorale), Bernard Kwabena Boadi ( Sir Orlando),Martha Obeng(Chorale Singer), Soloist Castro( Singer) and Amazing Artists and Groups like Millerites Accapella,J. Michael(Singer and Rapper), Stunner1z(Rapper), Mista Dice( Singer Rapper) Africa Teacher (Singer), GoIller( Singer), Lee John Carter(Singer), CoolboyJ(Singer), Manstopper and many more...
+Hi There!. My name is Mark Meteku Jr, a Ghanaian Based Music Producer, Keyboardist, Singer Songwriter and Mixing Engineer and a full time Nurse. My Studio is located at Sokoban Wood Village, Kumasi. 
+
+I've been playing the Keyboard for close to 13 years, i did Chorale Directing in most Chorale Groups and Church Choirs that i came across or joined in the past years. Just 5 years ago, i got into Music production. I mostly work in Chorale Gospel, Contemporary Gospel, Accapella, Afrobeats, Hip Pop and Rnb. I've worked with some renowed chorale composers such as Mr Sam Asare Bediako, Mr Enoch Nyarko, Mr Stephen Frimpong, Dr. Sarfo Mensah ( Universal Choralee), Dr. Baffour Awuah Oduro- Sarpong (The six, Polyphonix Chorale), Bernard Kwabena Boadi ( Sir Orlando),Martha Obeng(Chorale Singer), Soloist Castro( Singer) and Amazing Artists and Groups like Millerites Accapella,J. Michael(Singer and Rapper), Stunner1z(Rapper), Mista Dice( Singer Rapper) Africa Teacher (Singer), GoIller( Singer), Lee John Carter(Singer), CoolboyJ(Singer), Manstopper and many more...
 
 i was nomimated for Choral Producer of the Year and Dr. Mensah ( Universal Chorale)'s Ka Kyer3 Album for Album of the Year
 <img src="/Media/producer of the year.jpg" alt="Snrmar" width="750">
 <img src="/Media/album of the year.jpg" alt="Snrmar" width="750">
 
-I believe i can take your compositions or ideas into a full music production, So hit me up and lets work!
+I believe i can take your compositions or ideas into a full music production, So book a session with me  and lets work!
 
 
 
