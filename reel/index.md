@@ -30,6 +30,20 @@ Below are Lists of works I've done.
 <img src="/Media/UNIVERSAL COVERT.jpeg" alt="Ka Kyer3 Album" width="750">
 Ka Kyer3 Album By Dr. Mensah (Universal Chorale)
 
+Contact Dr. Mensah to purchase CDs of the Album
+
+Some of the Album Tracks 
+
+1.['MOMMUBU' (Break ye) || Dr. Sarfo Mensah || Universal Chorale - GH](https://www.youtube.com/watch?v=FmjB3vBjtNQ)
+
+2.[Universal Chorale - GH || Edin Kɛseɛ Jesus || Sarfo Mensah](https://www.youtube.com/watch?v=pBOe71g8QLM)
+
+3.[UNIVERSAL CHORALE - GHANA // Obi nte sɛ Wo // Dr. Sarfo Mensah](https://www.youtube.com/watch?v=l1My1sHjNzc)
+
+4.[UNIVERSAL CHORALE ('Ma emfifi' by Dr Sarfo Mensah)](https://www.youtube.com/watch?v=NOwAerk2sk8)
+
+5.[UNIVERSAL CHORALE ('Ka Kyerɛ' by Dr. Sarfo Mensah)](https://www.youtube.com/watch?v=iefYwXhrapY)
+
 
 
 
