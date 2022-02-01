@@ -1,9 +1,9 @@
 
 ## Portfolio
 
-Below are Lists of works ive done,
+Below are Lists of works I've done.
 
-## Mr Sam Asare Bediako (us)
+## Mr Sam Asare Bediako (US)
 
 1.[BORN TO PRAISE BY SAM ASARE-BEDIAKO. FT. NAGSDA MASS YOUTH CHOIR 2021](https://www.youtube.com/watch?v=lHjUF73DByI).
 
@@ -25,18 +25,25 @@ Below are Lists of works ive done,
 
 7.[Dwene Ho Yie | O Ponder Well | Dr. Baffour-A. O.-Sarpong | The Six](https://www.youtube.com/watch?v=rAi1cephaIY)
 
+## Universal Chorale ( Dr. Sarfo Mensah)
+
+<img src="/Media/UNIVERSAL COVERT.jpeg" alt="Ka Kyer3 Album" width="750">
+Ka Kyer3 Album By Dr. Mensah (Universal Chorale)
+
+
+
 
 ## Martha Obeng (UK)
 
 [Martha Obeng - O Come, All Ye Faithful](https://www.youtube.com/watch?v=p51TarIa4oU)
 
-## Mr Stephen Frimpong (Uk)
+## Mr Stephen Frimpong (UK)
 
 [Wa Hw3 Me So by Stephen Frimpong Amponsah](https://www.youtube.com/watch?v=hvE9NbX6svw)
 
 ## Works on Audiomack (Playlist)
 
-[This](https://audiomack.com/mextechmusic/playlist/mextech-mixes) includes all the mixes ive done on audimack.
+[This](https://audiomack.com/mextechmusic/playlist/mextech-mixes) includes all the mixes ive done on Audiomack.
 
 It features Artists like Stunner1z, J. Michael etc.
 
