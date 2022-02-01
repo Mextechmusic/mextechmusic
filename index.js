@@ -180,7 +180,7 @@ const { JSDOM } = require("jsdom");
                         margin-left: var(--space--2);
                       `}"
                     >
-                      Face the Music
+                    Face the Music
                     </div>
                   </a>
                 </h1>
