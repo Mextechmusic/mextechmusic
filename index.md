@@ -48,7 +48,8 @@ _“Great production. It was an experience Max. I know in our next meeting will 
 **Kwame Obolo (Singer, US)**
 
 
-I got to  Mark at the time I needed a music producer. As an emerging chorale music composer, it was necessary to have a producer who really understands this genre of music and could bring life into them. Interestingly after getting to know Mark, I realised he's not only a master in Chorale music but he's all round producer. Listening to some of the other genres of his produced music really confirmed my thoughts about him of naturally being talented in music production. Though he has not been in the business for long, he is already producing music of the likes of the master music producers. His in-depth knowledge and high skill in playing the keyboard has equipped him with much understanding of chorale music hence producing super quality music. I am forever grateful that I met him and recommend him to you as well. Experience this guy, then you would understand me.
+I got to Mark at the time I needed a music producer. As an emerging chorale music composer, it was necessary to have a producer who really understands this genre of music and could bring life into them. Interestingly after getting to know Mark, I realised he's not only a master in Chorale music but he's all round producer. Listening to some of the other genres of his produced music really confirmed my thoughts about him of naturally being talented in music production. Though he has not been in the business for long, he is already producing music of the likes of the master music producers. His in-depth knowledge and high skill in playing the keyboard has equipped him with much understanding of chorale music hence producing super quality music. I am forever grateful that I met him and recommend him to you as well. Experience this guy, then you would understand me.
+
 <img src="/Media/snrstephen.jpg" alt="Snrmar" width="750">
 
 ## Mr Stephen Frimpong (UK)
