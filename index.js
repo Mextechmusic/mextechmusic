@@ -24,7 +24,7 @@ const { JSDOM } = require("jsdom");
               name="viewport"
               content="width=device-width, initial-scale=1.0"
             />
-            <title>IDDQD Sound</title>
+            <title>Mextech Music</title>
             <link
               rel="stylesheet"
               href="/Media/node_modules/@fontsource/roboto/latin.css"
