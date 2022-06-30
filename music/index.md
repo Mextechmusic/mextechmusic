@@ -8,6 +8,3 @@ My second Song Releases this month on all streaming platforms, please stay tuned
 
 <img src="/Media/Letmeknow.jpg" alt="Snrmar" width="750">
 
-## YOUNG ADVENTIST COMPOSERS COLLABORATION ALBUM PROJECT
-
-This project is a collabration album project that is meant to feature young adventist composers in Kumasi. This is the first of its kind 
